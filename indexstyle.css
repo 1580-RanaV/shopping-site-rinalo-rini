@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'Poppins-Black';
+    src: url('Poppins/Poppins-Black.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Bold';
+    src: url('Poppins/Poppins-Bold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-ExtraBold';
+    src: url('Poppins/Poppins-ExtraBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Regular';
+    src: url('Poppins/Poppins-Regular.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Medium';
+    src: url('Poppins/Poppins-Medium.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-SemiBold';
+    src: url('Poppins/Poppins-SemiBold.ttf') format('truetype');
+  }
+  
+  @font-face {
+    font-family: 'Poppins-Thin';
+    src: url('Poppins/Poppins-Thin.ttf') format('truetype');
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.logo {
+    font-family: 'Poppins-Black';
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 100px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo2 {
+    font-family: 'Poppins-Black';
+    position: fixed;
+    top: 77%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 100px;
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+}
+
+/* .insta {
+  font-family: 'Poppins-Medium';
+  position: fixed;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 12px;
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+} */
+
+.frame {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    transition: flex 0.6s ease-in-out;
+}
+
+.frame:hover {
+    flex: 2;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
+
+/* .text-overlay2 {
+    font-family: 'Poppins-Regular';
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 14px;
+}
+
+.text-overlay2:hover {
+    text-decoration: underline;
+} */
+
+div {
+    font-family: 'Poppins-Bold';
+}
+
+div:hover {
+    cursor: pointer;
+}
+
